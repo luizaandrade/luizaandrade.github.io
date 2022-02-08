@@ -1,19 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <head>
-  <title>Luíza Andrade's personal website</title>
+  
+	<title>Luíza Andrade's personal website</title>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  
 </head>
 
 <body>
+	
+	<!--Navigation bar-->
+	<div id="nav">
+
+	</div>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery("#nav").load("resources/navigation.html");
+		});
+	</script>
+	<!--end of Navigation bar-->
+
+	<div class="container-fluid">
+		
+         <!--Publications table-->
+         <div id="pub">
+
+        </div>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function(){
+                jQuery("#pub").load("resources/publications.html");
+            });
+        </script>
+        <!--end of publications table-->
+
+	</div>
+
+	<footer class="text-center">
+		<div class = "container-fluid">
+			<div class="row">
+				<h4>Connect</h4>
+				<span>
+					<a href="https://github.com/luizaandrade" class="fa fa-github"></a>
+					<a href="https://twitter.com/AndradeLuizaC" class="fa fa-twitter"></a>
+					<a href="https://www.linkedin.com/in/luizacandrade/" class="fa fa-linkedin"></a>
+					<a href="https://scholar.google.com/citations?user=ricOAEsAAAAJ&hl=en" class="fa fa-graduation-cap"></a>
+				</span>
+			</div>
+		</div>
+	</footer>
+
 </body>
+</html>
