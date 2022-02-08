@@ -3,9 +3,13 @@
 
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
      <link rel="stylesheet" href="css/cv-style.css">
+     
      <title>Luíza Andrade's CV</title>
 </head>
 
@@ -104,179 +108,19 @@
         
         <h2>Publications</h2>
                 
-        <h3>Books</h3>
+        <!--Publications table-->
+        <div id="pub">
 
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://openknowledge.worldbank.org/handle/10986/35594">Development Research in Practice: the DIME Analytics Data Handbook</a></td>
-                <td class="publisher">World Bank</td>
-            </tr>
-            <tr>
-                <td class="author">With Kristoffer Bjarkefur, Benjamin Daniels and Maria Ruth Jones </td>
-                <td class="date">2021</td>
-            </tr>
-        </table>
+        </div>
 
-        <h3>Papers</h3>
-    
-        <table class="publication">
-            <tr>
-                <td class="title"><code>iefieldkit</code>: Stata commands for primary data collection and cleaning</td>
-                <td class="publisher">Stata Journal 20 (4), 892-915</td>
-            </tr>
-            <tr>
-                <td class="author">With Kristoffer Bjarkefur and Benjamin Daniels</td>
-                <td class="date">2020</td>
-            </tr>
-        </table>
-
-        <table class="publication">
-            <tr>
-                <td class="title">Investing in Local Capacity to Respond to a Federal Environmental Mandate: Forest and Economic Impacts of the Green Municipality Program in the Brazilian Amazon</td>
-                <td class="publisher">World Development No. 129</td>
-            </tr>
-            <tr>
-                <td class="author">With Erin O. Sills, Alex Pfaff, Justin Kirkpatrick, and Rebecca Dickson</td>
-                <td class="date">2020</td>
-            </tr>
-        </table>
-
-        <table class="publication">
-            <tr>
-                <td class="title">Custo de Oportunidade da preservação ambiental: o caso da Amazônia Legal Brasileira</td>
-                <td class="publisher">Revista Brasileira de Estudos Regionais e Urbanos, V11</td>
-            </tr>
-            <tr>
-                <td class="author">With André Luis Squarize Chagas</td>
-                <td class="date">2017</td>
-            </tr>
-        </table>
-  
-        <h3>Working Papers</h3>
-
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://openknowledge.worldbank.org/handle/10986/33853">Demand for "Safe Spaces": Avoiding Harassment and Stigma</a></td>
-                <td class="publisher">World Bank Policy Research Working Paper No. 9269</td>
-            </tr>
-            <tr>
-                <td class="author">With Florence Kondylis, Arianna Legovini, Kate Vyborny, and Astrid Zwager</td>
-                <td class="date">2020</td>
-            </tr>
-        </table>
-
-        <h3>Blogposts</h3>
-
-        <table class="publication">
-            <tr>
-                <td class="title">
-                    <a href="https://blogs.worldbank.org/impactevaluations/iefieldkit-document-primary-data-collection-and-cleaning-stata">
-                        <code>iefieldkit</code> to document primary data collection and cleaning in Stata
-                    </a>
-                </td>
-                <td class="publisher">Development Impact</td>
-            </tr>
-            <tr>
-                <td class="author">With Kristoffer Bjarkefur, Benjamin Daniels and Florence Kondylis</td>
-                <td class="date">March 3, 2021</td>
-            </tr>
-        </table>
+        <script type="text/javascript">
+            jQuery(document).ready(function(){
+                jQuery("#pub").load("resources/publications.html");
+            });
+        </script>
+        <!--end of publications table-->
         
-        <table class="publication">
-            <tr>
-                <td class="title">
-                    <a href="https://blogs.worldbank.org/opendata/how-can-we-improve-quality-big-data-development-economics-research-experiences-traditional">
-                        How can we improve the quality of big data for development economics research? Experiences from traditional data collection can help!
-                    </a>
-                </td>
-                <td class="publisher">World Bank Data Blog</td>
-            </tr>
-            <tr>
-                <td class="author">With Maria Jones, Sveta Milusheva and Leonardo Viotti</td>
-                <td class="date">March 2, 2021</td>
-            </tr>
-        </table>
-    
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://blogs.worldbank.org/impactevaluations/new-visual-libraries-r-and-stata-users">New visual libraries for R and Stata users</a></td>
-                <td class="publisher">Development Impact</td>
-            </tr>
-            <tr>
-                <td class="author">With Maria Jones, Florence Kondylis and Luis Eduardo San Martin</td>
-                <td class="date">October 15, 2020</td>
-            </tr>
-        </table>
 
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://blogs.worldbank.org/impactevaluations/nice-and-fast-tables-stata">Nice and fast tables in Stata?</a></td>
-                <td class="publisher">Development Impact</td>
-            </tr>
-            <tr>
-                <td class="author">With Benjamin Daniels and Florence Kondylis</td>
-                <td class="date">May 28, 2020</td>
-            </tr>
-        </table>
-      
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://blogs.worldbank.org/impactevaluations/what-development-economists-talk-about-when-they-talk-about-reproducibility">
-                    What development economists talk about when they talk about reproducibility...
-                </a></td>
-                <td class="publisher">Development Impact</td>
-            </tr>
-            <tr>
-                <td class="author">With Guadalupe Bedoya, Benjamin Daniels, Maria Jones and Florence Kondylis</td>
-                <td class="date">September 16, 2019</td>
-            </tr>
-        </table>
-        
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://blogs.worldbank.org/impactevaluations/how-implicit-association-test">How to Implicit Association Test?</a></td>
-                <td class="publisher">Development Impact</td>
-            </tr>
-            <tr>
-                <td class="author">With Florence Kondylis, Arianna Legovini, Kate Vyborny and Astrid Zwager</td>
-                <td class="date">April 10, 2019</td>
-            </tr>
-        </table>
-
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://blogs.worldbank.org/opendata/making-analytics-reusable">Making Analytics Reusable</a></td>
-                <td class="publisher">Open Data</td>
-            </tr>
-            <tr>
-                <td class="author">With Benjamin Daniels, Anton Prokopyev, Trevor Monroe, and Fernando Hoces de la Guardia</td>
-                <td class="date">March 25, 2019</td>
-            </tr>
-        </table>
-
-        <table class="publication">
-            <tr>
-                <td class="title"><a href="https://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-ietoolkit">IE Analytics: Introducing <code>ietoolkit</code></a></td>
-                <td class="publisher">Development Impact</td>
-            </tr>
-            <tr>
-                <td class="author">With Kristoffer Bjarkefur</td>
-                <td class="date">November 15, 2017</td>
-            </tr>
-        </table>
-    
-        <!-- 
-        <table class="publication">
-            <tr>
-                <td class="title"></td>
-                <td class="publisher"></td>
-            </tr>
-            <tr>
-                <td class="author"></td>
-                <td class="date"></td>
-            </tr>
-        </table>
-        --> 
       
     </div>
 
