@@ -30,3 +30,7 @@ jQuery(document).ready(function(){
 jQuery(document).ready(function(){
     jQuery("#blogs").load("resources/blogs.html");
 });
+
+jQuery(document).ready(function(){
+    jQuery("#footer").load("resources/footer.html");
+});
