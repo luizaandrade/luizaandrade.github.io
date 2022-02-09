@@ -45,6 +45,20 @@ h1 {
 	font-size: 60px;
 	padding-top: 2%;
 }
+
+h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	padding-top: 2%;
+}
+
+
+h4 {
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.7em;
+}
+
 #profilePic {
 	max-width: 250px;
 }
@@ -59,6 +73,9 @@ footer {
 	color: #fff;
 }
 
+a:hover {
+	color: #fea49f;
+}
 .fa {
 	padding: 20px;
 	font-size: 28px;
@@ -69,16 +86,58 @@ footer {
 	text-decoration: none;
 }
 
-h4 {
-	display: inline-block;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.7em;
-}
-
 #main {
 	padding-top: 6%;
 	padding-bottom: 7%;
 }
+
+#content {
+	padding-top: 2%;
+	padding-bottom: 6%;
+	font-size: 18px;
+	align-content: center;
+	width: 60%;
+}
+
+#content a {
+	color: #101357;
+}
+
+
+#content a:hover {
+	color: #fea49f;
+}
+
+code {
+	background-color: transparent;
+	color: #000;
+}
+
+/* Publications table */
+
+table {
+	width: 100%;
+	margin: 20px 0;
+}
+
+.date { 
+	text-align: right;
+	font-style: italic; 
+	color: #999; 
+}
+
+.title {
+	font-weight: bold;
+	color: #5e6162
+}
+
+.publisher { 
+	text-align: right;
+	font-style: italic; 
+	color: #00a0a0; 
+	font-weight: normal; 
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { }
