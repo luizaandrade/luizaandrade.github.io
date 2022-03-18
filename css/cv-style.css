@@ -53,7 +53,7 @@
         /* CV Sections */ 
         h2 { 
             padding-bottom: 10px;
-            padding-top:20px; 
+            padding-top:25px; 
             font-size: 25px;   
             overflow: hidden; 
         }
@@ -80,6 +80,11 @@
             padding-top: 6px;
             padding-bottom: 3px; 
         }
+
+        h3.employer { 
+            padding-top: 14px;
+        }
+
         h3 span { 
             position: absolute; 
             right: 0; 
@@ -141,7 +146,13 @@
             padding-left: 17px; 
         }
         
-       
+       ul.entry li {
+           padding: 2px 0; 
+       }
+
+       ul.entry {
+           padding-top: 10px;
+       }
         
         /* Langagues */
         table {margin: 0 0 12px 0}
