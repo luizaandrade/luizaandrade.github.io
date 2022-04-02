@@ -24,6 +24,14 @@ jQuery(document).ready(function(){
 });
 
 jQuery(document).ready(function(){
+    jQuery("#cv-usp").load("resources/cv-usp.html");
+});
+
+jQuery(document).ready(function(){
+    jQuery("#cv-ufrgs").load("resources/cv-ufrgs.html");
+});
+
+jQuery(document).ready(function(){
     jQuery("#pub").load("resources/pub.html");
 });
 
