@@ -23,7 +23,7 @@
 
         /* Name header */ 
         h1 { 
-            padding: 1em 0 .5em 0; 
+            padding: 0 0 .5em 0; 
             font-size: 3.5em; 
             font-weight: 50; 
             display: flex; 
@@ -52,7 +52,7 @@
         
         /* CV Sections */ 
         h2 { 
-            padding-bottom: 10px;
+            padding-bottom: 8px;
             padding-top:25px; 
             font-size: 25px;   
             overflow: hidden; 
@@ -82,7 +82,7 @@
         }
 
         h3.employer { 
-            padding-top: 14px;
+            padding-top: 6px;
         }
 
         h3 span { 
@@ -151,11 +151,11 @@
        }
 
        ul.entry {
-           padding-top: 10px;
+           padding-top: 6px;
        }
         
         /* Langagues */
-        table {margin: 0 0 12px 0}
+        table {margin: 0 0 8px 0}
         table td {font-size: 14px; margin: 0px 0px 0px 0px}
                 
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }

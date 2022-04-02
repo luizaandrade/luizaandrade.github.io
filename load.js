@@ -12,6 +12,10 @@ jQuery(document).ready(function(){
 });
 
 jQuery(document).ready(function(){
+    jQuery("#blurb-main").load("resources/blurb-main.html");
+});
+
+jQuery(document).ready(function(){
     jQuery("#cv-exp").load("resources/cv-exp.html");
 });
 
