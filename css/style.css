@@ -66,10 +66,14 @@ h4 {
 	font-size: 22px;
 }
 
-footer {
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
 	width: 100%;
-	background-color: #878787;
-	color: #fff;
+	text-align: center;
+	background-color: #5e6162;
+	color:#fff;
 }
 
 a:hover {
